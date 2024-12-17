@@ -7,4 +7,4 @@ edition = "2021"
 
 [[bin]]
 name = "AOC2024"
-path = "day1/main.rs"
+path = "day2/day2.rs"

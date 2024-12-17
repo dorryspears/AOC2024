@@ -1,4 +1,9 @@
-use std::{collections::HashMap, fs::read_to_string, io};
+use core::ascii;
+use std::{
+    collections::{HashMap, HashSet},
+    fs::read_to_string,
+    io,
+};
 
 fn main() -> io::Result<()> {
     let file_name = "day1/1.txt";
@@ -24,6 +29,8 @@ fn main() -> io::Result<()> {
     lists_2.sort();
 
     let mut hash_of_2: HashMap<i32, i32> = HashMap::new();
+    let mut hash_set: HashSet<i32> = HashSet::new();
+    ascii
 
     let mut count: i32 = 0;
 
